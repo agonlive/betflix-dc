@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle betflix-dc",
+        "command": "betflix-dc:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "betflix-dc",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "betflix-dc:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
